@@ -18,6 +18,6 @@ artifacts:
 
 post_build:
   commands:
-    - aws s3 cp ./dist/ s3://your-s3-bucket/ --recursive
-    - aws s3 cp ./package.json s3://your-s3-bucket/
-    - aws s3 cp ./package-lock.json s3://your-s3-bucket/
+    - aws s3 cp ./dist/ s3://startups.nyc/ --recursive
+    - aws s3 cp ./package.json s3://startups.nyc/
+    - aws s3 cp ./package-lock.json s3://startups.nyc/
